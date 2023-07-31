@@ -1,0 +1,18 @@
+POST http://localhost:8080/graphql
+Content-Type: application/json
+
+{
+  "query": "{
+    getAllTowers {
+      id
+      name
+      height
+      owner {
+        id
+        name
+        allegiance
+      }
+      description
+    }
+  }"
+}

@@ -1,0 +1,18 @@
+type Tower {
+  id: ID!
+  name: String!
+  height: Float!
+  description: String
+  owner: Character!
+}
+
+type Character {
+  id: ID!
+  name: String!
+  allegiance: String
+}
+
+type Query {
+  getTowerById(id: ID!): Tower
+  getAllTowers: [Tower]
+}

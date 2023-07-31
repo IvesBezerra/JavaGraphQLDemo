@@ -1,0 +1,39 @@
+# Java Build Output
+/target/
+/bin/
+/build/
+/out/
+/.gradle/
+.gradle/
+*.iml
+*.ipr
+*.iws
+
+# IntelliJ-specific files
+.idea/
+*.log
+*.log.*
+*.iws
+*.iml
+*.ipr
+*.iws
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/.name
+*.idea/.module
+*.idea/dictionaries
+
+# Maven specific files
+.mvn/
+
+# Compiled class file
+*.class
+*.jar
+
+# Logs
+*.log
+*.log.*
+
+# Dependency Directories
+/lib/
+/libs/
